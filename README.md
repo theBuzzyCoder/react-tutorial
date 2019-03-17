@@ -9,7 +9,7 @@ docker build --rm -f "Dockerfile" -t tic-tac-toe:latest .
 docker run --rm -p 3000:3000 -d tic-tac-toe:latest
 ```
 
-Load the running game in http:localhost:3000/
+Load the running game in http://localhost:3000/
 
 ## Development
 
